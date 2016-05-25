@@ -8,7 +8,7 @@ var passport = require('passport');
 var session = require('express-session');
 var mongoose = require('mongoose');
 var socket_io    = require( "socket.io" );
-mongoose.connect("mongodb://localhost/test");
+mongoose.connect("mongodb://localhost/chirp");
 
 
 
